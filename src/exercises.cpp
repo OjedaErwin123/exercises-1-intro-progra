@@ -7,9 +7,14 @@ using namespace std;
 void exercise_1(string s1, string s2, string s3) {
   // TODO: YOUR CODE HERE
   string s= to_string(s1);
-  if (s>s2){ s = s2 }
-  else (s>s3){ s=s3}
-  cout<<s;
+
+  if (s>s2){
+     s = s2; 
+     }
+  else (s>s3){ 
+    s=s3;
+    }
+  cout<<s ;
 }
 
 void exercise_2(double A, double B, double C) {
