@@ -24,20 +24,21 @@ void exercise_2(double A, double B, double C) {
 
 void exercise_3(int a, int b) {
   // TODO: YOUR CODE HERE
-  result = 0;
+  int result = 0;
+
+  if(b=0){
+    cout<<"Imposible ";
+  }
 
   result = (a / b);
 
-  if (result>0){
+
+  else if (result>0){
     cout <<"Tu division es: "<<result;
   } 
-  if (result<0){
+  else (result<0){
     cout <<"Tu division es: "<<result;
   }
-  else (result=0){
-    cout <<"Imposible: "
-  } 
-
 
 }
 
