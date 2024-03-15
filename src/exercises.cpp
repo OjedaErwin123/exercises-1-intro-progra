@@ -19,10 +19,26 @@ void exercise_1(string s1, string s2, string s3) {
 
 void exercise_2(double A, double B, double C) {
   // TODO: YOUR CODE HERE
+  
 }
 
 void exercise_3(int a, int b) {
   // TODO: YOUR CODE HERE
+  result = 0;
+
+  result = (a / b);
+
+  if (result>0){
+    cout <<"Tu division es: "<<result;
+  } 
+  if (result<0){
+    cout <<"Tu division es: "<<result;
+  }
+  else (result=0){
+    cout <<"Imposible: "
+  } 
+
+
 }
 
 void exercise_4(double n, double a, double b, double x, double y) {
