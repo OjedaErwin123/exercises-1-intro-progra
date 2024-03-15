@@ -30,10 +30,10 @@ void exercise_3(int a, int b) {
     cout<<"Imposible ";
   }
 
+
   result = (a / b);
 
-
-  else if (result>0){
+  if (result>0){
     cout <<"Tu division es: "<<result;
   } 
   else (result<0){
