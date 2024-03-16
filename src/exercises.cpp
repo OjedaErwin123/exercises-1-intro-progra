@@ -73,9 +73,10 @@ void exercise_6(int number) {
 
 void exercise_7(double r) {
   // TODO: YOUR CODE HERE <>
-  double x;
+  double x,y;
+  y=3.14;
   if (r>=0){
-    x= 4 * M_PI * pow(r,2);
+    x= 4 *y* pow(r,2);
     cout<<x;
     cout<<"\n";
   }
