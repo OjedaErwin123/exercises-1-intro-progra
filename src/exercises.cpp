@@ -35,12 +35,15 @@ void exercise_4(double n, double a, double b, double x, double y) {
 void exercise_5(char character) {
   // TODO: YOUR CODE HERE
   int valor;
-  valor = 'character' ;
+  valor= int (character);
   if(valor>=65 && valor<=90){
     cout<<"upper-case alphabet/n";
   }
   else if (valor>=97 && valor<=122){
     cout<<"lower-case alphabet/n";
+  }
+  else{
+    cout<<"not an alphabet/n";
   }
 }
 
