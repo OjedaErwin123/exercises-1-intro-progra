@@ -7,20 +7,21 @@ using namespace std;
 void exercise_1(string s1, string s2, string s3) {
   // TODO: YOUR CODE HERE
   string shortestString;
-  if (s1<s2 && s1<s3){
+  if (s1 < s2 && s1 < s3) {
     shortestString = s1;
+    cout << shortestString;
   }
-  else if (s2 < s1 && s2<s3){
+  else if (s2 < s1 && s2 < s3){
     shortestString = s2;
-    cout<<shortestString;
-  }
-  else if (s3 < s1 && s3<s2){
+    cout << shortestString;
+    }
+  else if (s3 < s1 && s3 < s2) {
     shortestString = s3;
-    cout<<shortestString;
+    cout << shortestString;
   }
-  else{
+  else {
     cout<<s1;
-  }
+ }
   
 }
 
