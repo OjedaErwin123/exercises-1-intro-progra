@@ -34,6 +34,18 @@ void exercise_4(double n, double a, double b, double x, double y) {
 
 void exercise_5(char character) {
   // TODO: YOUR CODE HERE
+  if(character>=65 && character<=90)
+  {
+    cout<<"Es mayuscula";
+  }
+  else if (character>97 && character<=122)
+  {
+    cout<<"Es minuscula";
+  }
+  else
+  {
+    cout<<"No es un caracter alfabetico";
+  }
 }
 
 void exercise_6(int number) {
@@ -55,24 +67,7 @@ string exercise_9(string s1, string s2, string s3, string s4, string s5) {
 
 int exercise_10(int a, int b) {
   // <>TODO: YOUR CODE HERE
-  int s,c,p;
-if (a>0 && b>0)
-{
-  s= a+b;
-
-  while (s>0)
-  {
-    a= s/10;
-    c++;
-  }
-  p=s*c;
-  cout<<p;
-}
-
-if (a<0 || b<0){
-  cout<<"0";
-}
-
+ 
 }
 
 string exercise_11(int number) {
