@@ -37,13 +37,13 @@ void exercise_5(char character) {
   int valor;
   valor = 'character' ;
   if(valor>=65 && valor<=90){
-    cout<<"Es mayuscula";
+    cout<<"lower-case alphabet/n";
   }
   else if (valor>=97 && valor<=122){
-    cout<<"Es minuscula";
+    cout<<"upper-case alphabet/n";
   }
   else{
-    cout<<"No es un caracter alfabetico";
+    cout<<"not an alphabet/n";
   }
 }
 
