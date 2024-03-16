@@ -45,7 +45,7 @@ void exercise_4(double n, double a, double b, double x, double y) {
     z= n*x;
     cout<<z;
   }
-  else (n>b){
+  else (n>b);{
     z= n*y;
     cout<<z;
   } 
