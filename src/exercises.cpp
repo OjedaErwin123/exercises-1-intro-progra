@@ -6,12 +6,10 @@ using namespace std;
 
 void exercise_1(string s1, string s2, string s3) {
   // TODO: YOUR CODE HERE
-  
 }
 
 void exercise_2(double A, double B, double C) {
   // TODO: YOUR CODE HERE
-  
 }
 
 void exercise_3(int a, int b) {
@@ -32,13 +30,22 @@ void exercise_6(int number) {
 
 void exercise_7(double r) {
   // TODO: YOUR CODE HERE
-
-r = 4 * M_PI * pow(r,2);
-
 }
 
 void exercise_8(long int seconds) {
   // TODO: YOUR CODE HERE
+  int x,y;
+  while (seconds>3600)
+  {
+    seconds=seconds-3600
+    x++;
+  }
+  while (seconds>60)
+  {
+    seconds=seconds-60
+    y++;
+  }
+  cout<<x<<":"<<y<<":"<<seconds;
 }
 
 string exercise_9(string s1, string s2, string s3, string s4, string s5) {
