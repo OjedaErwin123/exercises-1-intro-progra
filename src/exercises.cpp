@@ -51,14 +51,14 @@ void exercise_6(int number) {
   // \TODO: YOUR CODE HERE
   switch (number)
   {
-    case 1: cout<<"Lunes"; break;
+    case 1: cout<<"Monday\n"; break;
     case 2: cout<<"Martes"; break;
     case 3: cout<<"Miercoles"; break;
-    case 4: cout<<"Jueves"; break;
+    case 4: cout<<"Thursday\n"; break;
     case 5: cout<<"Viernes"; break;
     case 6: cout<<"Sabado"; break;
     case 7: cout<<"Domingo"; break;
-    default: cout<<"Invalid input";break;
+    default: cout<<"Invalid input\n";break;
   }
 }
 
