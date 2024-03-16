@@ -4,7 +4,7 @@
 
 using namespace std;
 
-void exercise_1(string s1, string s2, string s3) {
+/*void exercise_1(string s1, string s2, string s3) {
   // TODO: YOUR CODE HERE
   string s= to_string(s1);
 
@@ -21,7 +21,7 @@ void exercise_2(double A, double B, double C) {
   // TODO: YOUR CODE HERE
   
 }
-
+*/
 void exercise_3(int a, int b) {
   // TODO: YOUR CODE HERE
   int result = 0;
@@ -42,7 +42,7 @@ void exercise_3(int a, int b) {
 
 }
 
-void exercise_4(double n, double a, double b, double x, double y) {
+/*void exercise_4(double n, double a, double b, double x, double y) {
   // TODO: YOUR CODE HERE
 }
 
@@ -111,4 +111,4 @@ void exercise_15(int a, int b, int c) {
 
 void exercise_16(int debut, int fin) {
   // TODO: YOUR CODE HERE
-}
+}*/
