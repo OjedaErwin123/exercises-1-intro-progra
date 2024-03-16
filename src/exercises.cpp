@@ -58,7 +58,7 @@ if (a>0 && b>0)
 a=a*b;
 cout<<a;
 
-else {
+else if (a<0 || b<0){
   cout<<"0";
 }
 
