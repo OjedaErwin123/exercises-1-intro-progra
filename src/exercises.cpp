@@ -21,7 +21,7 @@ void exercise_2(double A, double B, double C) {
   // TODO: YOUR CODE HERE
   
 }
-
+/*
 void exercise_3(int a, int b) {
   // TODO: YOUR CODE HERE
   int result = 0;
