@@ -111,7 +111,7 @@ void exercise_8(long int seconds) {
   while(q>60){
     q=q/60;
     y++;
-    r=q
+    r=q;
   }
   cout<<x<<":"<<y<<":"<<r;
   }
