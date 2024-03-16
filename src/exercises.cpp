@@ -98,7 +98,7 @@ void exercise_7(double r) {
 
 void exercise_8(long int seconds) {
   // TODO: YOUR CODE HERE
-  int x,y;
+  int x,y,q,r;
   if (seconds<0){
     cout<<"Error: Input seconds cannot be negative.\n";
   }
@@ -106,12 +106,14 @@ void exercise_8(long int seconds) {
   while(seconds>3600){
     seconds=seconds/3600;
     x++;
+    q=seconds;
   }
-  while(seconds>60){
-    seconds=seconds/60;
+  while(q>60){
+    q=q/60;
     y++;
+    r=q
   }
-  cout<<x<<":"<<y<<":"<<seconds;
+  cout<<x<<":"<<y<<":"<<r;
   }
 }
 
