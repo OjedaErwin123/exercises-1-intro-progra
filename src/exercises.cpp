@@ -13,25 +13,9 @@ void exercise_2(double A, double B, double C) {
   // TODO: YOUR CODE HERE
   
 }
-/*
+
 void exercise_3(int a, int b) {
   // TODO: YOUR CODE HERE
-  int result = 0;
-
-  if(b=0){
-    cout<<"Imposible ";
-  }
-
-
-  result = (a / b);
-
-  if (result>0){
-    cout <<"Tu division es: "<<result;
-  } 
-  else (result<0){
-    cout <<"Tu division es: "<<result;
-  }
-
 }
 
 void exercise_4(double n, double a, double b, double x, double y) {
@@ -44,18 +28,6 @@ void exercise_5(char character) {
 
 void exercise_6(int number) {
   // TODO: YOUR CODE HERE
-  switch (number){
-    case 1: cout <<"Hoy es LUNES";break;
-    case 2: cout <<"Hoy es MARTES";break;
-    case 3: cout <<"Hoy es MIERCOLES";break;
-    case 4: cout <<"Hoy es JUEVES";break;
-    case 5: cout <<"Hoy es VIERNES";break;
-    case 6: cout <<"Hoy es SABADO";break;
-    case 7: cout <<"Hoy es DOMINGO";break;
-
-    default : cout<< "Invalid input"
-
-  }
 }
 
 void exercise_7(double r) {
