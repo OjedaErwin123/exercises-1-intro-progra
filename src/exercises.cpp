@@ -72,7 +72,16 @@ void exercise_6(int number) {
 }
 
 void exercise_7(double r) {
-  // TODO: YOUR CODE HERE
+  // TODO: YOUR CODE HERE <>
+  double x;
+  if (r>=0){
+    x= 4 * M_PI * pow(r,2);
+    cout<<x;
+    cout<<"\n";
+  }
+  else{
+    cout<<"Error: Radius cannot be negative.";
+  }
 }
 
 void exercise_8(long int seconds) {
