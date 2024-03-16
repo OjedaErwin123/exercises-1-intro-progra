@@ -39,6 +39,17 @@ void exercise_3(int a, int b) {
 
 void exercise_4(double n, double a, double b, double x, double y) {
   // TODO: YOUR CODE HERE
+  double z;
+  if (b>a){
+  if (n>a){
+    z= n*x;
+    cout<<z;
+  }
+  else (n>b){
+    z= n*y;
+    cout<<z;
+  } 
+  }
 }
 
 void exercise_5(char character) {
@@ -87,6 +98,7 @@ void exercise_7(double r) {
 
 void exercise_8(long int seconds) {
   // TODO: YOUR CODE HERE
+
 
 }
 
