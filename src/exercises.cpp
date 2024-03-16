@@ -61,12 +61,12 @@ void exercise_6(int number) {
   switch (number)
   {
     case 1: cout<<"Monday\n"; break;
-    case 2: cout<<"Martes"; break;
-    case 3: cout<<"Miercoles"; break;
+    case 2: cout<<"Martes\n"; break;
+    case 3: cout<<"Miercoles\n"; break;
     case 4: cout<<"Thursday\n"; break;
-    case 5: cout<<"Viernes"; break;
-    case 6: cout<<"Sabado"; break;
-    case 7: cout<<"Domingo"; break;
+    case 5: cout<<"Viernes\n"; break;
+    case 6: cout<<"Sabado\n"; break;
+    case 7: cout<<"Domingo\n"; break;
     default: cout<<"Invalid input\n";break;
   }
 }
@@ -81,7 +81,7 @@ void exercise_7(double r) {
     cout<<"\n";
   }
   else{
-    cout<<"Error: Radius cannot be negative.";
+    cout<<"Error: Radius cannot be negative.\n";
   }
 }
 
