@@ -14,7 +14,7 @@ void exercise_1(string s1, string s2, string s3) {
   {
     cout<<s2;
   }
-  else (s3>s1 && s3>s2)
+  else
   {
     cout<<s3;
   }
