@@ -37,13 +37,10 @@ void exercise_5(char character) {
   int valor;
   valor = 'character' ;
   if(valor>=65 && valor<=90){
-    cout<<"lower-case alphabet/n";
-  }
-  else if (valor>=97 && valor<=122){
     cout<<"upper-case alphabet/n";
   }
-  else{
-    cout<<"not an alphabet/n";
+  else if (valor>=97 && valor<=122){
+    cout<<"lower-case alphabet/n";
   }
 }
 
