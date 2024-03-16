@@ -4,7 +4,7 @@
 
 using namespace std;
 
-/*void exercise_1(string s1, string s2, string s3) {
+void exercise_1(string s1, string s2, string s3) {
   // TODO: YOUR CODE HERE
   string s= to_string(s1);
 
@@ -49,7 +49,7 @@ void exercise_4(double n, double a, double b, double x, double y) {
 void exercise_5(char character) {
   // TODO: YOUR CODE HERE
 }
-*/
+
 void exercise_6(int number) {
   // TODO: YOUR CODE HERE
   switch (number){
@@ -66,7 +66,7 @@ void exercise_6(int number) {
   }
 }
 
-/*void exercise_7(double r) {
+void exercise_7(double r) {
   // TODO: YOUR CODE HERE
 }
 
@@ -111,4 +111,4 @@ void exercise_15(int a, int b, int c) {
 
 void exercise_16(int debut, int fin) {
   // TODO: YOUR CODE HERE
-}*/
+}
