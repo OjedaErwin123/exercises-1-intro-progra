@@ -99,7 +99,7 @@ void exercise_7(double r) {
 void exercise_8(long int seconds) {
   // TODO: YOUR CODE HERE
   int x,y;
-  if (a<0){
+  if (seconds<0){
     cout<<"Error: Input seconds cannot be negative.\n";
   }
   else {
