@@ -48,7 +48,18 @@ void exercise_5(char character) {
 }
 
 void exercise_6(int number) {
-  // TODO: YOUR CODE HERE
+  // \TODO: YOUR CODE HERE
+  switch (number)
+  {
+    case 1: cout<<"Lunes"; break;
+    case 2: cout<<"Martes"; break;
+    case 3: cout<<"Miercoles"; break;
+    case 4: cout<<"Jueves"; break;
+    case 5: cout<<"Viernes"; break;
+    case 6: cout<<"Sabado"; break;
+    case 7: cout<<"Domingo"; break;
+    default: cout<<"Invalid input";break;
+  }
 }
 
 void exercise_7(double r) {
@@ -57,6 +68,7 @@ void exercise_7(double r) {
 
 void exercise_8(long int seconds) {
   // TODO: YOUR CODE HERE
+
 }
 
 string exercise_9(string s1, string s2, string s3, string s4, string s5) {
