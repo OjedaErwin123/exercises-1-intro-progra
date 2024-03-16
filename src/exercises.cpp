@@ -52,12 +52,16 @@ if (a>0 && b>0)
     a/10;
     b++;
   }
+  a=a*b;
+  cout<<a;
 }
 a=a*b;
 cout<<a;
+
 else {
   cout<<"0";
 }
+
 }
 
 string exercise_11(int number) {
