@@ -42,12 +42,12 @@ void exercise_4(double n, double a, double b, double x, double y) {
   double z;
   if (b>a){
   if (n>a){
-    z= a/x;
+    z= n* x%;
     cout<<z;
     cout<<"\n";
   }
   else (n>b);{
-    z= b/y;
+    z= n* y%;
     cout<<z;
     cout<<"\n";
   } 
