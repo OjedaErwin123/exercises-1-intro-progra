@@ -32,8 +32,8 @@ void exercise_6(int number) {
 
 void exercise_7(double r) {
   // TODO: YOUR CODE HERE
-double A;
-A = 4 * M_PI * pow(r,2);
+
+r = 4 * M_PI * pow(r,2);
 
 }
 
