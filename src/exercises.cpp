@@ -104,11 +104,11 @@ void exercise_8(long int seconds) {
   }
   else {
   while(seconds>3600){
-    seconds=seconds-3600;
+    seconds=seconds/3600;
     x++;
   }
   while(seconds>60){
-    seconds=seconds-60;
+    seconds=seconds/60;
     y++;
   }
   cout<<x<<":"<<y<<":"<<seconds;
