@@ -45,7 +45,7 @@ int exercise_10(int a, int b) {
   // <>TODO: YOUR CODE HERE
 if (a>0 && b>0)
 {
-  a= a+b
+  a= a+b;
 
   while (a>0)
   {
