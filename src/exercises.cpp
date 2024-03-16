@@ -25,11 +25,11 @@ void exercise_2(double A, double B, double C) {
 }
 
 void exercise_3(int a, int b) {
- 
+  // \TODO: YOUR CODE HERE 
   int x;
   if (a>0 && b>0){
-    x= a/b;
-    cout<<x;
+    x= a/b
+    cout<<x\n;
   }
   else{
     cout<<"Imposible\n";
