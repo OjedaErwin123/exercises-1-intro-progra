@@ -43,11 +43,11 @@ void exercise_4(double n, double a, double b, double x, double y) {
   if (b>a){
   if (n>a){
     c= n * x;
-    cout<<z;<<"\n";
+    cout<<z;"\n";
   }
   else (n>b);{
     c= n * y;
-    cout<<c;<<"\n";
+    cout<<c;"\n";
   } 
   }
 }
