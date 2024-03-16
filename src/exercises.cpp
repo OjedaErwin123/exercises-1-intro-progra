@@ -34,11 +34,12 @@ void exercise_4(double n, double a, double b, double x, double y) {
 
 void exercise_5(char character) {
   // TODO: YOUR CODE HERE
-  int c = character
-  if(c>=65 && c<=90){
+  int valor;
+  valor = 'character' ;
+  if(valor>=65 && valor<=90){
     cout<<"Es mayuscula";
   }
-  else if (c>=97 && c<=122){
+  else if (valor>=97 && valor<=122){
     cout<<"Es minuscula";
   }
   else{
