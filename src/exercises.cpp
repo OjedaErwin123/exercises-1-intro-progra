@@ -38,7 +38,7 @@ void exercise_5(char character) {
   {
     cout<<"Es mayuscula";
   }
-  else if (character>97 && character<=122)
+  else if (character>=97 && character<=122)
   {
     cout<<"Es minuscula";
   }
