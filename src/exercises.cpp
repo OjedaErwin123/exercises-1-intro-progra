@@ -35,6 +35,13 @@ void exercise_7(double r) {
 void exercise_8(long int seconds) {
   // TODO: YOUR CODE HERE
   int x,y;
+  if(seconds<0)
+  {
+    cout<<"Error: Input seconds cannot be negative."<<endl;
+  }
+  else
+  {
+  
   while (seconds>3600)
   {
     seconds=seconds-3600;
@@ -45,7 +52,8 @@ void exercise_8(long int seconds) {
     seconds=seconds-60;
     y++;
   }
-  cout<<x<<":"<<y<<":"<<seconds;
+  cout<<x<<":"<<y<<":"<<seconds; 
+  }
 }
 
 string exercise_9(string s1, string s2, string s3, string s4, string s5) {
