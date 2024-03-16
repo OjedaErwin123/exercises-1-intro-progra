@@ -39,15 +39,17 @@ void exercise_3(int a, int b) {
 
 void exercise_4(double n, double a, double b, double x, double y) {
   // TODO: YOUR CODE HERE
-  double z;
+  double z,c;
   if (b>a){
   if (n>a){
-    z= n* x%;
+    c= n * x;
+    z= c/100;
     cout<<z;
     cout<<"\n";
   }
   else (n>b);{
-    z= n* y%;
+    c= n * y;
+    z= c/100;
     cout<<z;
     cout<<"\n";
   } 
