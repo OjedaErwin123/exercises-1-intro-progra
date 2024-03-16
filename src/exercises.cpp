@@ -32,7 +32,7 @@ void exercise_3(int a, int b) {
     cout<<x\n;
   }
   else{
-    cout<<"Imposible\n";
+    cout<<"Impossible\n";
   }
 }
 
