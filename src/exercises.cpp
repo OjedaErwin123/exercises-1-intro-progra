@@ -21,7 +21,7 @@ void exercise_2(double A, double B, double C) {
   // TODO: YOUR CODE HERE
   
 }
-*/
+
 void exercise_3(int a, int b) {
   // TODO: YOUR CODE HERE
   int result = 0;
@@ -42,14 +42,14 @@ void exercise_3(int a, int b) {
 
 }
 
-/*void exercise_4(double n, double a, double b, double x, double y) {
+void exercise_4(double n, double a, double b, double x, double y) {
   // TODO: YOUR CODE HERE
 }
 
 void exercise_5(char character) {
   // TODO: YOUR CODE HERE
 }
-
+*/
 void exercise_6(int number) {
   // TODO: YOUR CODE HERE
   switch (number){
@@ -66,7 +66,7 @@ void exercise_6(int number) {
   }
 }
 
-void exercise_7(double r) {
+/*void exercise_7(double r) {
   // TODO: YOUR CODE HERE
 }
 
