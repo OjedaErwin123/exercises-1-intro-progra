@@ -28,7 +28,7 @@ void exercise_3(int a, int b) {
   // \TODO: YOUR CODE HERE 
   int x;
   if (a>0 && b>0){
-    x= a/b
+    x= a/b;
     cout<<x\n;
   }
   else{
