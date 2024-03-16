@@ -29,7 +29,8 @@ void exercise_3(int a, int b) {
   int x;
   if (a>0 && b>0){
     x= a/b;
-    cout<<x;"\n";
+    cout<<x;
+    cout<<"\n";
   }
   else{
     cout<<"Impossible\n";
