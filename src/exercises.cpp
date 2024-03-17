@@ -111,6 +111,7 @@ void exercise_8(long int seconds) {
   }
   else {
     cout<<"00:00:00\n";
+    cout<<"Error: Input seconds cannot be negative.\n";
   }
 }
 
