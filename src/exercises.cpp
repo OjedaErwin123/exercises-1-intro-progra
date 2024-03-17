@@ -101,10 +101,10 @@ void exercise_8(long int seconds) {
   int x,y,q,r;
   if (seconds>0){
     q=seconds/3600;
-
-    x=seconds;
+    y=seconds % 3600;
+    
     r=x/60;
-    cout<<q<<":"<<r<<":"<<seconds;
+    cout<<q<<":"<<y<<":"<<r;
   }
   else {
     cout<<"Error: Input seconds cannot be negative.\n";
