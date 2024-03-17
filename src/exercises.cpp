@@ -101,7 +101,9 @@ void exercise_8(long int seconds) {
   int x,y,q,r;
   if (seconds>0){
     q=seconds/3600;
-    r=seconds/60;
+
+    x=seconds;
+    r=x/60;
     cout<<q<<":"<<r<<":"<<seconds;
   }
   else {
