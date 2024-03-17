@@ -110,7 +110,7 @@ void exercise_8(long int seconds) {
     <<setw(2)<<setfill('0')<<y<<"\n";
   }
   else {
-    cout<<"Error: Input seconds cannot be negative.\n";
+    //cout<<"Error: Input seconds cannot be negative.\n";
     cout<<"00:00:00\n";
 
 
