@@ -41,13 +41,13 @@ void exercise_3(int a, int b) {
 void exercise_4(double n, double a, double b, double x, double y) {
   // TODO: YOUR CODE HERE
   double z,c;
-  if (b>a){
+  if (a>b){
   if (n>a){
-    c= n/(1-x);
+    c= n/(1-(x/100));
     cout<<c;"\n";
   }
   else (n>b);{
-    c= n/(1-y);
+    c= n* (1-(y/100));
     cout<<c;"\n";
   } 
   }
