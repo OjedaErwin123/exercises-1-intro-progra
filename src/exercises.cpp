@@ -42,11 +42,11 @@ void exercise_4(double n, double a, double b, double x, double y) {
   // TODO: YOUR CODE HERE
   double z,c;
   if (a>b){
-  if (n>a){
+  if (a>n){
     c= n/(1-(x/100));
     cout<<c;"\n";
   }
-  else (n>b);{
+  else (b>n);{
     c= n* (1-(y/100));
     cout<<c;"\n";
   } 
