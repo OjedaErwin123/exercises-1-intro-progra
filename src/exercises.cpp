@@ -8,11 +8,11 @@ using namespace std;
 void exercise_1(string s1, string s2, string s3) {
   // TODO: YOUR CODE HERE
   string s4; 
-  if (s1>s2 && s1>s3){
+  if (s1<s2 && s1<s3){
     s4=s1;
     cout<<s4;
   }
-  else if (s2>s1 && s2>s3){
+  else if (s2<s1 && s2<s3){
     s4=s2;
     cout<<s4;
   }
