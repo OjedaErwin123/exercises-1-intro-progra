@@ -44,14 +44,14 @@ void exercise_4(double n, double a, double b, double x, double y) {
   if (b>a){
   if (n>a){
     c= n*(1-(x/100));
-    cout<<c"\n";
+    cout<<c;<<"\n";
   }
   else if (n>b){
     c= n*(1-(y/100));
-    cout<<c"\n";
+    cout<<c;<<"\n";
   }
   else {
-    cout<<n"\n";
+    cout<<n;<<"\n";
   }
   }
 }
