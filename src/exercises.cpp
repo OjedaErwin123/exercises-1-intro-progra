@@ -130,6 +130,13 @@ string exercise_9(string s1, string s2, string s3, string s4, string s5) {
 
 int exercise_10(int a, int b) {
   // <>TODO: YOUR CODE HERE
+  int c,d,e;
+  c= a+b;
+  d= c.size();
+  e= c*d;
+
+  cout<<e;
+  cout<<"\n";
 }
 
 string exercise_11(int number) {
