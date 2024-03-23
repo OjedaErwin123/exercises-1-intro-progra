@@ -43,11 +43,11 @@ void exercise_4(double n, double a, double b, double x, double y) {
   double z,c;
   if (b>a){
   if (n>a){
-    c= x * ( 1 - n / 100);
+    c= (n * x)/100;
     cout<<c;"\n";
   }
   else (n>b);{
-    c= y * ( 1 - n / 100);
+    c= (n * y)/100;
     cout<<c;"\n";
   } 
   }
