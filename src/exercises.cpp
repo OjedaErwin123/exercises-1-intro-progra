@@ -47,7 +47,7 @@ void exercise_4(double n, double a, double b, double x, double y) {
     cout<<c;"\n";
   }
   else (n>b);{
-    c= n * ( 1 - y / 10;
+    c= n * ( 1 - y / 10);
     cout<<c;"\n";
   } 
   }
