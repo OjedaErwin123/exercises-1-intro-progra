@@ -135,18 +135,15 @@ int exercise_10(int a, int b) {
   s= a+b;
   x=s;
 
-  while (x>=10){
+  while (x>10){
   x=x/10;
   c++;
+
     }
   p=s*c ;
   cout<<p;
   cout<<"\n";
 
-  if (a<0 || b<0){
-    cout<<"0";
-    cout<<"\n";
-}
 }
 
 string exercise_11(int number) {
