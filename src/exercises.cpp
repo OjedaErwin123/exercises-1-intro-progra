@@ -136,7 +136,7 @@ int exercise_10(int a, int b) {
   }
   x = a + b;
   y=0;
-  r=x
+  r=x;
 
   while(r !=0){
     r /= 10;
