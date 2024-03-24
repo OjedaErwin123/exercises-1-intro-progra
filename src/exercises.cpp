@@ -130,8 +130,9 @@ string exercise_9(string s1, string s2, string s3, string s4, string s5) {
 
 int exercise_10(int a, int b) {
   // <>TODO: YOUR CODE HERE
-  int s,c,p;
+  int s,c,p,x;
   s= a+b;
+  x=s;
   c=1;
   if (a<0 || b<0){
     cout<<"0";
@@ -142,7 +143,7 @@ int exercise_10(int a, int b) {
       s=s/10;
       c++;
     }
-    p=c*s;
+    p=c*x;
   }
   cout<<p;
   cout<<"\n";
