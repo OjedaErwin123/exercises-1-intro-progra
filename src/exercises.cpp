@@ -143,8 +143,9 @@ int exercise_10(int a, int b) {
       s=s/10;
       c++;
     }
-    p=c*x;
+    
   }
+  p=c*x;
   cout<<p;
   cout<<"\n";
 
