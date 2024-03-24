@@ -135,11 +135,7 @@ int exercise_10(int a, int b) {
   p=0;
  
   c=1;
-  if (a<0 || b<0){
-    cout<<"0";
-    cout<<"\n";
-  }
-  else {
+  if (a>0 && b>0){
     s= a+b;
     x=s;
 
@@ -147,11 +143,16 @@ int exercise_10(int a, int b) {
       x=x/10;
       c++;
     }
-    
-  }
-  p=s * c;
+    p=s * c;
   cout<<p;
   cout<<"\n";
+  }
+  
+  else {
+    cout<<"0";
+    cout<<"\n";
+  }
+  
 
 }
 
