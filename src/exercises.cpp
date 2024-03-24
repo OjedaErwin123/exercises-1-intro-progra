@@ -130,17 +130,17 @@ string exercise_9(string s1, string s2, string s3, string s4, string s5) {
 
 int exercise_10(int a, int b) {
   // <>TODO: YOUR CODE HERE
-  int s,c,p,x;
-  c=1;
+  int s,c,p,x,y;
+  y=1;
   s= a+b;
   x=s;
 
   while (x>10){
   x=x/10;
   c++;
-
-    }
-  p=s*c ;
+  y=y+c;
+  }
+  p=s*y ;
   cout<<p;
   cout<<"\n";
 
