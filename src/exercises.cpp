@@ -147,11 +147,10 @@ int exercise_10(int a, int b) {
   cout<<p;
   cout<<"\n";
 
-  if (a<0 || b<0){ {
+  if (a<0 || b<0){
     cout<<"0";
     cout<<"\n";
-  }
-  
+}
 }
 
 string exercise_11(int number) {
