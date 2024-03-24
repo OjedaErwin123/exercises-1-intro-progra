@@ -131,21 +131,25 @@ string exercise_9(string s1, string s2, string s3, string s4, string s5) {
 int exercise_10(int a, int b) {
   // <>TODO: YOUR CODE HERE
   int s,c,p,x;
-  s= a+b;
-  x=s;
+  
+  p=0;
+ 
   c=1;
   if (a<0 || b<0){
     cout<<"0";
     cout<<"\n";
   }
   else {
-    while (s>=10){
-      s=s/10;
+    s= a+b;
+    x=s;
+
+    while (x>=10){
+      x=x/10;
       c++;
     }
     
   }
-  p=c*x;
+  p=s * c;
   cout<<p;
   cout<<"\n";
 
