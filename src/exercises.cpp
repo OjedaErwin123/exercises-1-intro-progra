@@ -135,12 +135,12 @@ int exercise_10(int a, int b) {
     int T;
     int P;
     
-    if (A>0){
+    if (a>0){
     
-    if (A>0){
-        if (B>0){
+    if (a>0){
+        if (b>0){
             
-        R = A + B;
+        R = a + b;
         T= R;
         
         while (T>0){
