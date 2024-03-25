@@ -142,10 +142,9 @@ int exercise_10(int a, int b) {
         while (T>0){
         T= T / 10;
         x++;
-        }
         P= R * x ;
+        }
         cout<<P <<endl;
-    
         }
         
     else {
