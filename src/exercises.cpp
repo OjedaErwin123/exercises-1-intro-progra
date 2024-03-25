@@ -136,8 +136,6 @@ int exercise_10(int a, int b) {
     int P;
     
     if (a>0){
-    
-    if (a>0){
         if (b>0){
             
         R = a + b;
@@ -156,10 +154,6 @@ int exercise_10(int a, int b) {
         cout<< "0";
         }
     
-    }
-    else {
-        cout<< "0";
-     }
     }
     else {
         cout<<"0" ;
