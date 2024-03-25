@@ -135,26 +135,19 @@ int exercise_10(int a, int b) {
     int T;
     int P;
     
-    if (a>0){
-        if (b>0){
-            
+    if (a>0||b>0){
         R = a + b;
         T= R;
         
         while (T>0){
         T= T / 10;
         x++;
-    }
-    P= R * x ;
-    
-    cout<<P <<endl;
+        }
+        P= R * x ;
+        cout<<P <<endl;
     
         }
-        else {
-        cout<< "0";
-        }
-    
-    }
+        
     else {
         cout<<"0" ;
     }
