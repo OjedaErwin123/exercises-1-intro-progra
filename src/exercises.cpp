@@ -130,20 +130,40 @@ string exercise_9(string s1, string s2, string s3, string s4, string s5) {
 
 int exercise_10(int a, int b) {
   // <>TODO: YOUR CODE HERE
-  int s,x,p;
-  s = a+b;
-  x=s;
-  for(int i = 1 ; x>10 ; i++){
-    x=x/10;
-    p=s*i;
-    cout<<p;
-    cout<<"\n";
-  }
-  
-  
-  if(a<0 || b<0){
-    cout<<"0\n";
-  }
+  int x;
+    int R;
+    int T;
+    int P;
+    
+    if (A>0){
+    
+    if (A>0){
+        if (B>0){
+            
+        R = A + B;
+        T= R;
+        
+        while (T>0){
+        T= T / 10;
+        x++;
+    }
+    P= R * x ;
+    
+    cout<<P <<endl;
+    
+        }
+        else {
+        cout<< "0";
+        }
+    
+    }
+    else {
+        cout<< "0";
+     }
+    }
+    else {
+        cout<<"0" ;
+    }
 }
 
 string exercise_11(int number) {
