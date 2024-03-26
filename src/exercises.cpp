@@ -196,6 +196,9 @@ void exercise_15(int a, int b, int c) {
   a = c;
   b = a;
   c = b;
+  cout <<"Los valores son a = "<<a;
+  cout<<"b = "<<b;
+  cout<<"c = "<<c; 
 }
 
 void exercise_16(int debut, int fin) {
