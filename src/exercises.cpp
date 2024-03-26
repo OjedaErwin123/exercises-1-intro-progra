@@ -133,7 +133,7 @@ int exercise_10(int a, int b) {
   int s,c;
   
   if (a<0 || b<0)
-    return 0
+    return 0;
   s = a+b;
   c= 0;
   while (s>0){
