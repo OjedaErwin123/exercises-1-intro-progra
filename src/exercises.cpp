@@ -125,8 +125,14 @@ void exercise_8(long int seconds) {
 
 string exercise_9(string s1, string s2, string s3, string s4, string s5) {
   // TODO: YOUR CODE HERE
-  return "";
-}
+  int lon1;
+  lon1=s2.length()-1;
+  if(s1[0]==s2[lon1]){
+    return "Hemos encontrado algo";
+  }
+  else {
+    return "Aun sin suerte";
+  }
 
 int exercise_10(int a, int b) {
   // <>TODO: YOUR CODE HERE
