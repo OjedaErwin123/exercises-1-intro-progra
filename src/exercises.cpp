@@ -161,13 +161,13 @@ string exercise_13(int age, int years_of_experience) {
   // TODO: YOUR CODE HERE
   if(age>=18){
     if(years_of_experience>= 5){
-      return director senior;
+      return "director senior";
     }
     else if (years_of_experience>=3 && years_of_experience<5){
-      return director de proyecto;
+      return "director de proyecto";
     }
     else {
-      return coordinador de proyecto;
+      return "coordinador de proyecto";
     }
   }
 }
