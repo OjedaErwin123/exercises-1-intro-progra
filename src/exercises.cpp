@@ -135,8 +135,8 @@ int exercise_10(int a, int b) {
   if (a<0 || b<0)
     return 0;
   s = a+b;
-  c= 0;
-  while (s>0){
+  c= 1;
+  while (s>10){
     s/= 10;
     c++;
   }
