@@ -131,7 +131,7 @@ string exercise_9(string s1, string s2, string s3, string s4, string s5) {
     cout<<s1[0]<<s2[0]<<s3[0]<<s4[0]<<s5[0]<<"\n";
     return "Hemos encontrado algo";
   }
-  else {
+  else (s1[0]=!s5[lon1]){
     cout<<s1[0]<<s2[0]<<s3[0]<<s4[0]<<s5[0]<<"\n";
     return "Aun sin suerte";
   }
