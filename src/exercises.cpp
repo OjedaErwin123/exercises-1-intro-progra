@@ -126,9 +126,9 @@ void exercise_8(long int seconds) {
 string exercise_9(string s1, string s2, string s3, string s4, string s5) {
   // TODO: YOUR CODE HERE
   string s6=s1
-  int lon1;
-  lon1=s5.length()-1;
-  if(s1[0]==s5[lon1]){
+  int lon;
+  lon=s5.length()-1;
+  if(s1[0]==s5[lon]){
     cout<<s1[0]<<s2[0]<<s3[0]<<s4[0]<<s5[0]<<"\n";
     return "Hemos encontrado algo";
   }
