@@ -139,8 +139,8 @@ int exercise_10(int a, int b) {
   while (s>10){
     s/= 10;
     c++;
+
   }
-  
   return c*(a+b); 
   
 }
