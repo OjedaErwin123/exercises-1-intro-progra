@@ -194,12 +194,13 @@ string exercise_14(int number_of_docs) {
 void exercise_15(int a, int b, int c) {
   // TODO: YOUR CODE HERE
   int x,y,z;
-  x = c;
-  y = a;
-  z = b;
+  x = b;
+  y = c;
+  z = a;
   cout <<"Los valores son a = "<<x;
-  cout<<"b = "<<y;
-  cout<<"c = "<<z; 
+  cout<<" b = "<<y;
+  cout<<" c = "<<z;
+  cout<<"\n"; 
 }
 
 void exercise_16(int debut, int fin) {
