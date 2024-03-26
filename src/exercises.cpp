@@ -199,7 +199,7 @@ void exercise_15(int a, int b, int c) {
   z = b;
   cout <<"Los valores son a = "<<a;
   cout<<" b = "<<b;
-  cout<<" c = "<<c;
+  cout<<" y c = "<<c;
   cout<<"\nPermutamos: a => b, b => c, c => a\n";
   cout<<"Los valores despues de la permutacion son: a = "<<x;
   cout<<" b = "<<y;
