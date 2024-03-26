@@ -149,10 +149,10 @@ string exercise_11(int number) {
   // TODO: YOUR CODE HERE
   int f= 11235813; 
   if(number == f ){
-    return "Se encontro a Finobacci";
+    return "Se encontro a Fibonacci";
   }
   else{
-    return "Esto no es de Finobaci";
+    return "Esto no es de Fibonacci";
   }
   
 }
