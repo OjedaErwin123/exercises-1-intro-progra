@@ -183,7 +183,7 @@ string exercise_14(int number_of_docs) {
   else if (number_of_docs == 1){
     return "Se encontro un documento";
   }
-  else (number_of_docs >= 2){
+  else (number_of_docs >= 2);{
     return number_of_docs<<"documentos encontrados";
   }
 
