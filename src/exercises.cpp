@@ -129,11 +129,11 @@ string exercise_9(string s1, string s2, string s3, string s4, string s5) {
   int cad;
   cad=s5.length()-1;
   if(s1[0]==s5[cad]){
-    cout<<s1[0]<<s2[0]<<s3[0]<<s4[0]<<s5[0]<<"\n";
-    return "Hemos encontrado algo";
+    cout<<s6[0]<<s2[0]<<s3[0]<<s4[0]<<s5[0]<<"\n";
+    return "Hemos encontrado algo!";
   }
   else (s1[0] =! s5[cad]);{
-    cout<<s1[0]<<s2[0]<<s3[0]<<s4[0]<<s5[0]<<"\n";
+    cout<<s6[0]<<s2[0]<<s3[0]<<s4[0]<<s5[0]<<"\n";
     return "Aun sin suerte";
   }
 }
