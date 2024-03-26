@@ -152,7 +152,7 @@ string exercise_11(int number) {
     return "Se encontro a Finobacci";
   }
   else{
-    return "No se encontro a Finobaci";
+    return "Esto no es de Finobaci";
   }
   
 }
