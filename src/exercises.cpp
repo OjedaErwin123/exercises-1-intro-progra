@@ -197,7 +197,7 @@ void exercise_15(int a, int b, int c) {
   x = c;
   y = a;
   z = b;
-  cout <<"Los valores son a = "<<a;
+  cout <<"Los valores son: a = "<<a;
   cout<<" b = "<<b;
   cout<<" y c = "<<c;
   cout<<"\nPermutamos: a => b, b => c, c => a\n";
