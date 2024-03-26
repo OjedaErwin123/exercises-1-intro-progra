@@ -132,13 +132,14 @@ int exercise_10(int a, int b) {
   // <>TODO: YOUR CODE HERE
   int s,c;
   s = a+b;
+  if (a<0 || b<0)
+    return 0;
+  
   while (s>0){
     s/= 10;
     c++;
   }
-  if (a<0 || b<0){
-    return 0;
-  }
+  
   return c*(a+b); 
   
 }
