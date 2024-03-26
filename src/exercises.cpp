@@ -137,7 +137,7 @@ int exercise_10(int a, int b) {
     c++;
   }
   if (a<0 || b<0){
-    cout<<"0\n";
+    return 0;
   }
   return c*(a+b); 
   
