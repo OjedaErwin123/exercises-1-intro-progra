@@ -170,6 +170,9 @@ string exercise_13(int age, int years_of_experience) {
       return "coordinador de proyecto";
     }
   }
+  else {
+    return "no apto";
+  }
 }
 
 string exercise_14(int number_of_docs) {
