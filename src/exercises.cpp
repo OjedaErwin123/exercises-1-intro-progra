@@ -34,7 +34,7 @@ void exercise_2(double A, double B, double C) {
     x1 = -B / (2.0 * A);
     cout<<x1<<endl;
   } else {
-    cout << "" << endl;
+    cout << "";
   }
 }
 
