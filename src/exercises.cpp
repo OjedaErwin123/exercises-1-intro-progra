@@ -33,6 +33,8 @@ void exercise_2(double A, double B, double C) {
   } else if (discriminante == 0.0) {
     x1 = -B / (2.0 * A);
     cout<<x1<<endl;
+  } else if (2.0*A==0) {
+    cout << "";
   } else {
     cout << "";
   }
