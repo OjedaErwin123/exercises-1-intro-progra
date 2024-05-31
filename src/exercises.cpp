@@ -24,7 +24,7 @@ void exercise_1(string s1, string s2, string s3) {
 void exercise_2(double A, double B, double C) {
   // TODO: YOUR CODE HERE
   double discriminante, x1, x2;
-  discriminante = B * B - 4.0 * A * C;
+  discriminante = (B * B) - (4.0 * A * C);
 
   if (discriminante > 0.0) {
     x1 = (-B + sqrt(discriminante)) / (2.0 * A);
@@ -34,7 +34,7 @@ void exercise_2(double A, double B, double C) {
     x1 = -B / (2.0 * A);
     cout<<x1<<endl;
   } else {
-    cout << "No hay soluciones reales" << endl;
+    cout << "" << endl;
   }
 }
 
